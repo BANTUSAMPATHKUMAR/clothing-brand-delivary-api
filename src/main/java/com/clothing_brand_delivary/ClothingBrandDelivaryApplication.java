@@ -8,6 +8,7 @@ public class ClothingBrandDelivaryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ClothingBrandDelivaryApplication.class, args);
+		System.out.println("Hello Sampath");
 	}
 
 }
