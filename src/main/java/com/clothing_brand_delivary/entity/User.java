@@ -10,21 +10,21 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "user", schema = "clothing_brand_delivary")
 public class User {
-	
+
 	@Id
-	@Column(name ="id")
+	@Column(name = "id")
 	private UUID id;
-	
-	@Column(name ="name")
+
+	@Column(name = "name")
 	private String name;
-	
+
 	@Column(name = "email")
 	private String email;
-	
+
 	@Column(name = "password")
 	private String password;
-	
-	@Column(name ="role")
+
+	@Column(name = "role")
 	private String role;
 
 	public User() {
